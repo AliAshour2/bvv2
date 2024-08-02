@@ -10,6 +10,12 @@ import VentureFundsSearch from "./components/VentureFundsSearch/VentureFundsSear
 import ContactUsSection from "./components/ContactUsSection/ContactUsSection";
 import Footer from "./components/Footer/Footer";
 
+import { HSStaticMethods } from "preline";
+
+HSStaticMethods.autoInit();
+
+
+
 function App() {
   return (
     <>
