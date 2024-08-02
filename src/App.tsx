@@ -11,12 +11,28 @@ import ContactUsSection from "./components/ContactUsSection/ContactUsSection";
 import Footer from "./components/Footer/Footer";
 
 import { HSStaticMethods } from "preline";
+import { useEffect   } from "react";
+import { useLocation } from "react-router-dom";
 
 HSStaticMethods.autoInit();
 
 
 
 function App() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    require('preline/preline');
+  }, []);
+
+  useEffect(() => {
+   
+    HSStaticMethods.autoInit();
+  }, [location.pathname]);
+
+
+
   return (
     <>
       <NavBar />
