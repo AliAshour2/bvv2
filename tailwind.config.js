@@ -7,7 +7,8 @@ module.exports = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
     'node_modules/preline/dist/*.js',
+     "./node_modules/flowbite/**/*.js"
   ],
   prefix: "",
-  plugins: [ require('preline/plugin') , require("tailwindcss-animate") ,  require('tailwindcss-rtl'),],
+  plugins: [ require('preline/plugin') , require("tailwindcss-animate") ,  require('tailwindcss-rtl'), require('flowbite/plugin')],
 }
