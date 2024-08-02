@@ -144,7 +144,7 @@ const InvestmentSection = () => {
         role="tablist"
         aria-orientation="horizontal"
       >
-        {InvestmentInfo.map((info, index) => (
+        {InvestmentInfo.map((_, index) => (
           <button
             key={index}
             type="button"

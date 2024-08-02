@@ -148,4 +148,4 @@ const GrowthAnalysisSection = () => {
   );
 };
 
-export default GrowthAnalysisSection;
+export default GrowthAnalysisSection; 
