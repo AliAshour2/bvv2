@@ -73,10 +73,10 @@ const ConsultingSection = () => {
         {/* Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 lg:mb-14">
           {consultingItems.map((item, index) => (
-            <a
+            <div
               key={index}
               className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition"
-              href="#"
+              
             >
               <div className="h-56 overflow-hidden">
                 <img
@@ -91,7 +91,7 @@ const ConsultingSection = () => {
                   {item.description}
                 </h3>
               </div>
-            </a>
+            </div>
           ))}
         </div>
         {/* End Grid */}
@@ -101,9 +101,9 @@ const ConsultingSection = () => {
           <div className="inline-block bg-white border shadow-sm rounded-full">
             <div className="py-3 px-4 flex items-center gap-x-2">
               <p className="text-gray-600">{t('consulting.readMore')}</p>
-              <a
+              <div
                 className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium"
-                href="../docs/index.html"
+               
               >
                 {t('consulting.goHere')}
                 <svg
@@ -120,7 +120,7 @@ const ConsultingSection = () => {
                 >
                   <path d="m9 18 6-6-6-6" />
                 </svg>
-              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -140,9 +140,9 @@ const ConsultingSection = () => {
         <Slider {...sliderSettings}>
           {consultingItems.map((item, index) => (
             <div key={index} className="p-2">
-              <a
+              <div
                 className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition"
-                href="#"
+                
               >
                 <div className="h-56 overflow-hidden">
                   <img
@@ -157,7 +157,7 @@ const ConsultingSection = () => {
                     {item.description}
                   </h3>
                 </div>
-              </a>
+              </div>
             </div>
           ))}
         </Slider>

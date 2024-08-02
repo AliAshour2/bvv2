@@ -77,10 +77,10 @@ const GrowthAnalysisSection = () => {
         {/* Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 lg:mb-14">
           {growthAnalysisItems.map((item, index) => (
-            <a
+            <div
               key={index}
               className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition"
-              href="#"
+              
             >
               <div className="h-56 overflow-hidden">
                 <img
@@ -97,7 +97,7 @@ const GrowthAnalysisSection = () => {
                   {item.description}
                 </h3>
               </div>
-            </a>
+            </div>
           ))}
         </div>
         {/* End Grid */}
@@ -120,9 +120,9 @@ const GrowthAnalysisSection = () => {
         <Slider {...sliderSettings}>
           {growthAnalysisItems.map((item, index) => (
             <div key={index} className="p-2">
-              <a
+              <div
                 className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition"
-                href="#"
+                
               >
                 <div className="h-56 overflow-hidden">
                   <img
@@ -139,7 +139,7 @@ const GrowthAnalysisSection = () => {
                     {item.description}
                   </h3>
                 </div>
-              </a>
+              </div>
             </div>
           ))}
         </Slider>
