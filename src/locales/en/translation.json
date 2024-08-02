@@ -1,0 +1,102 @@
+{
+  "navbar": {
+    "home": "Home",
+    "consulting": "Consulting",
+    "growthAnalysis": "Growth Analysis",
+    "ventureFunds": "Venture Funds",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "heroTitle": "Start your journey with ",
+    "heroDescription": "At Business Vibes , With the appropriate level of experience andknowledge, workable solutions can be developed for any size firm.Our staff has consulted with more than 100 companies, and they areprepared to improve the health of your business.",
+    "buttonText1": "Get Started",
+    "buttonText2": " Contact sales team"
+  },
+  "consulting": {
+    "title": "Our Consulting",
+    "description": "We've helped some great companies brand, design and get to market.",
+    "items": [
+      {
+        "title": "Financial Advisory",
+        "description": "Helping you create long-term strategies for building wealth and managing risk"
+        
+      },
+      {
+        "title": "Restructuring",
+        "description": "Structural changes designed to increase the value of your projects."
+        
+      },
+      {
+        "title": "Engineering",
+        "description": "Using highly advanced techniques to solve financial problems."
+        
+      },
+      {
+        "title": "Corporate Governance",
+        "description": "Helping you to build an environment of trust, transparency, and accountability."
+       
+      },
+      {
+        "title": "Business Plans",
+        "description": "Covering objectives, strategies, market analysis, execution plans, and financial projections."
+       
+      },
+      {
+        "title": "Customized Research",
+        "description": "Tailored to your project's specific needs."
+      }
+    ],
+    "readMore": "Want to read more?",
+    "goHere": "Go here"
+  },
+
+
+  "invesment": {
+    "title": "Investment Advisory Services",
+    "items": [
+      {
+        "title": "Business Valuation",
+        "description": "A process and a set of procedures used to estimate the economic value of an owner's interest in a business. Various valuation techniques are used to determine the price a willing buyer and seller."
+      },
+      {
+        "title": "Merger & Acquisition",
+        "description": "(M&A) transactions are never the same. More complicated transactions tend to take on different structures depending on a number of factors, varying from the size of the transaction, any international elements; employees, competition, regulatory implications, fiscal considerations, and parties' relationships."
+      },
+      {
+        "title": "Due Diligence",
+        "description": "An investigation of a company’s financial affairs. It is a thorough examination of a company’s past and projected patterns to verify their relevance and accuracy."
+      }
+    ]
+  },
+
+  "growthAnalysis": {
+    "title": "Managing Growth & Analysis",
+    "description": "We've partnered with leading companies to manage growth, analyze market trends, and implement data-driven strategies to achieve sustainable success",
+    "items": [
+      {
+        "title": "Demand Forecasting",
+        "description": "We use your company's historical data, near real-time data and industry benchmarks to predict consumer demand."
+      },
+      {
+        "title": "Revenue Generation",
+        "description": "Identifying high growth target markets, pricing adjustments and cost optimization opportunities for greater revenue."
+      },
+      {
+        "title": "Customer Retention",
+        "description": "We analyze and look for any new or missed opportunities to strengthen customer loyalty."
+      },
+      {
+        "title": "Raising Capital",
+        "description": "Raising funds from trusted sources to achieve strategic goals."
+      },
+      {
+        "title": "Cash Management",
+        "description": "Discovering the optimal utilization of cash for ensuring liquidity and profitability."
+      },
+      {
+        "title": "Restructuring Organizational Chart",
+        "description": "Better use of talent, reduced costs, better communication and increased efficiency."
+      }
+    ]
+  }
+}
