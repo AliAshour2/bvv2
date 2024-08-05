@@ -10,5 +10,5 @@ module.exports = {
      "./node_modules/flowbite/**/*.js"
   ],
   prefix: "",
-  plugins: [ require('preline/plugin') , require("tailwindcss-animate") ,  require('tailwindcss-rtl'), require('flowbite/plugin')],
+  plugins: [ require('preline/plugin') , require("tailwindcss-animate") ,  require('tailwindcss-rtl')],
 }

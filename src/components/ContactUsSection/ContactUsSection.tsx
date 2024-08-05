@@ -39,11 +39,11 @@ const ContactUsSection = () => {
                     <circle cx={12} cy={10} r={3} />
                   </svg>
                   <div className="grow">
-                    <p className="text-sm text-gray-600">United Kingdom</p>
+                    <p className="text-sm text-gray-600">Tallin Estonia</p>
                     <address className="mt-1 text-black not-italic">
-                      300 Bath Street, Tay House
+                      
                       <br />
-                      Glasgow G2 4JR
+                     
                     </address>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ const ContactUsSection = () => {
                     <p className="text-sm text-gray-600">Email us</p>
                     <p>
                       <a
-                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
+                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full  hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
                         hello@example.so
@@ -101,7 +101,7 @@ const ContactUsSection = () => {
                     <p className="text-sm text-gray-600">Call us</p>
                     <p>
                       <a
-                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
+                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full  hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
                         +44 222 777-000

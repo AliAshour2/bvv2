@@ -38,7 +38,7 @@ const VentureFundsSearch = () => {
   );
 
   return (
-    <div id="venture-funds" className="flex flex-col container mx-auto py-8">
+    <div id="Venture-Fundes-Search" className="flex flex-col container mx-auto py-8">
       <div className="-m-1.5 overflow-x-auto">
         <div className="p-1.5 min-w-full inline-block align-middle">
           <div className="border rounded-lg divide-y divide-gray-200">

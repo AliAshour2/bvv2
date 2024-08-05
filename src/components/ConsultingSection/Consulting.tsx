@@ -76,7 +76,6 @@ const ConsultingSection = () => {
             <div
               key={index}
               className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition"
-              
             >
               <div className="h-56 overflow-hidden">
                 <img
