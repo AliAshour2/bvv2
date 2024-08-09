@@ -2,7 +2,7 @@ import { useState} from "react";
 import Scrollspy from "react-scrollspy";
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
-
+import NavBarIcon from "../../assets/images/bvvFavicon.png"
 interface NavItem {
   href: string;
   label: string;
@@ -40,13 +40,7 @@ const NavBar = () => {
       <header className={`fixed top-0 left-0 z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3 ${isArabic ? 'rtl' : ''}`}>
         <nav className="py-5 max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
           <div className="flex items-center justify-between">
-            <a
-              className="flex-none text-xl font-semibold focus:outline-none focus:opacity-80"
-              href="#"
-              aria-label="Brand"
-            >
-              Brand
-            </a>
+             <img className="w-40" src={NavBarIcon} alt="favicon" />
             <div className="sm:hidden">
               <button
                 type="button"

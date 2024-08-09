@@ -1,3 +1,5 @@
+import FavIcon from "../assets/images/bvvFavicon.png"
+
 import HeroImg1 from "../assets/images/heroSection/hero1.jpg";
 import HeroImg2 from "../assets/images/heroSection/hero2.jpg";
 import HeroImg3 from "../assets/images/heroSection/hero3.jpg";
@@ -19,6 +21,9 @@ import anaysis6 from "../assets/images/AnalysisSectoin/anlysis6.jpg";
 import investImg1 from "../assets/images/InvestmentSectoin/Invest1.jpg";
 import investImg2 from "../assets/images/InvestmentSectoin/Invest2.jpg";
 import investImg3 from "../assets/images/InvestmentSectoin/Invest3.jpeg";
+
+
+export const NavFavIcon = {FavIcon} ;
 
 export const HeroImages = {
   HeroImg1,

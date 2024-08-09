@@ -1,6 +1,8 @@
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "@fortawesome/fontawesome-free/js/all";
 import ConsultingSection from "./components/ConsultingSection/Consulting";
 import HeroSection from "./components/HeroSection/HeroSection";
 import GrowthAnalysisSection from "./components/GrowthAnalysisSectoin/GrowthAnalysisSection";
