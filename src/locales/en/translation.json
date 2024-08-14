@@ -66,34 +66,28 @@
     "description": "We've partnered with leading companies to manage growth, analyze market trends, and implement data-driven strategies to achieve sustainable success",
     "items": [
       {
-        "title": "Benchmarking Analysis - Saudi Market ",
-        "description": "We use your company's historical data, near real-time data and industry benchmarks to predict consumer demand."
+        "title": "تحليل المعايير - السوق السعودي"
       },
       {
-        "title": "Benchmarking Analysis - Real Estate M&D",
-        "description": "Identifying high growth target markets, pricing adjustments and cost optimization opportunities for greater revenue."
+        "title": "تحليل المعايير - العقارات والتطوير"
       },
       {
-        "title": "Degree of Leverage Analysis",
-        "description": "We analyze and look for any new or missed opportunities to strengthen customer loyalty."
+        "title": "تحليل درجة الرافعة المالية"
       },
       {
-        "title": "RE RENT ANALYSIS",
-        "description": "Raising funds from trusted sources to achieve strategic goals."
+        "title": "تحليل إيجارات العقارات"
       },
       {
-        "title": "India aviation market",
-        "description": "Discovering the optimal utilization of cash for ensuring liquidity and profitability."
+        "title": "سوق الطيران الهندي"
       },
       {
-        "title": "Ecommerce Valuation Multiples",
-        "description": "Better use of talent, reduced costs, better communication and increased efficiency."
+        "title": "تقييم التجارة الإلكترونية"
       },
       {
-        "title": "Personal Finance Planner"
+        "title": "مخطط التمويل الشخصي"
       },
       {
-        "title": "Drone Market"
+        "title": "سوق الطائرات بدون طيار"
       }
     ]
   }
