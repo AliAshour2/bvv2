@@ -19,27 +19,22 @@
       {
         "title": "Financial Advisory",
         "description": "Helping you create long-term strategies for building wealth and managing risk"
-        
       },
       {
         "title": "Restructuring",
         "description": "Structural changes designed to increase the value of your projects."
-        
       },
       {
         "title": "Engineering",
         "description": "Using highly advanced techniques to solve financial problems."
-        
       },
       {
         "title": "Corporate Governance",
         "description": "Helping you to build an environment of trust, transparency, and accountability."
-       
       },
       {
         "title": "Business Plans",
         "description": "Covering objectives, strategies, market analysis, execution plans, and financial projections."
-       
       },
       {
         "title": "Customized Research",
@@ -49,8 +44,6 @@
     "readMore": "Want to read more?",
     "goHere": "Go here"
   },
-
-
   "invesment": {
     "title": "Investment Advisory Services",
     "items": [
@@ -68,34 +61,39 @@
       }
     ]
   },
-
   "growthAnalysis": {
     "title": "Managing Growth & Analysis",
     "description": "We've partnered with leading companies to manage growth, analyze market trends, and implement data-driven strategies to achieve sustainable success",
     "items": [
       {
-        "title": "Demand Forecasting",
+        "title": "Benchmarking Analysis - Saudi Market ",
         "description": "We use your company's historical data, near real-time data and industry benchmarks to predict consumer demand."
       },
       {
-        "title": "Revenue Generation",
+        "title": "Benchmarking Analysis - Real Estate M&D",
         "description": "Identifying high growth target markets, pricing adjustments and cost optimization opportunities for greater revenue."
       },
       {
-        "title": "Customer Retention",
+        "title": "Degree of Leverage Analysis",
         "description": "We analyze and look for any new or missed opportunities to strengthen customer loyalty."
       },
       {
-        "title": "Raising Capital",
+        "title": "RE RENT ANALYSIS",
         "description": "Raising funds from trusted sources to achieve strategic goals."
       },
       {
-        "title": "Cash Management",
+        "title": "India aviation market",
         "description": "Discovering the optimal utilization of cash for ensuring liquidity and profitability."
       },
       {
-        "title": "Restructuring Organizational Chart",
+        "title": "Ecommerce Valuation Multiples",
         "description": "Better use of talent, reduced costs, better communication and increased efficiency."
+      },
+      {
+        "title": "Personal Finance Planner"
+      },
+      {
+        "title": "Drone Market"
       }
     ]
   }

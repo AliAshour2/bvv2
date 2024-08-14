@@ -1,4 +1,4 @@
-import FavIcon from "../assets/images/bvvFavicon.png"
+import FavIcon from "../assets/images/bvvFavicon.png";
 
 import HeroImg1 from "../assets/images/heroSection/hero1.jpg";
 import HeroImg2 from "../assets/images/heroSection/hero2.jpg";
@@ -16,14 +16,17 @@ import anaysis2 from "../assets/images/AnalysisSectoin/anlysis2.jpg";
 import anaysis3 from "../assets/images/AnalysisSectoin/anlysis3.jpg";
 import anaysis4 from "../assets/images/AnalysisSectoin/anlysis4.jpg";
 import anaysis5 from "../assets/images/AnalysisSectoin/anlysis5.jpg";
-import anaysis6 from "../assets/images/AnalysisSectoin/anlysis6.jpg";
+import anaysis6 from "../assets/images/AnalysisSectoin/fin.jpg";
+import anaysis7 from "../assets/images/AnalysisSectoin/fin2.jpg";
+import anaysis8 from "../assets/images/AnalysisSectoin/drone.jpg";
+
+
 
 import investImg1 from "../assets/images/InvestmentSectoin/Invest1.jpg";
 import investImg2 from "../assets/images/InvestmentSectoin/Invest2.jpg";
 import investImg3 from "../assets/images/InvestmentSectoin/Invest3.jpeg";
 
-
-export const NavFavIcon = {FavIcon} ;
+export const NavFavIcon = { FavIcon };
 
 export const HeroImages = {
   HeroImg1,
@@ -71,40 +74,36 @@ export const ConsultingInfo = [
 
 export const GrouthAnalysisInfo = [
   {
-    title: "Demand Forecasting",
     img: anaysis1,
-    description:
-      "We use your company's historical data, near real-time data and industry benchmarks to predict consumer demand.",
+    url: "https://drive.google.com/file/d/12h-C591UM_8bHVBT_i8V8RL_FEEcVVlS/view?usp=sharing"
   },
   {
-    title: "Revenue Generation",
     img: anaysis2,
-    description:
-      "Identifying high growth target markets, pricing adjustments and cost optimization opportunities for greater revenue.",
+    url: "https://drive.google.com/file/d/1I1AO-XJXuBLH50wJg5ePG8EiGQJbMoG1/view?usp=sharing"
   },
   {
-    title: "Customer Retention",
     img: anaysis3,
-    description:
-      "We analyze and look for any new or missed opportunities to strengthen customer loyalty.",
+    url: "https://docs.google.com/spreadsheets/d/12jFmB87Of67sw1Plx6i8InMbD2AeL-5e/edit?usp=sharing&ouid=100146590501902256309&rtpof=true&sd=true"
   },
   {
-    title: "Raising Capital",
     img: anaysis4,
-    description:
-      "Raising funds from trusted sources to achieve strategic goals.",
+    url: "https://docs.google.com/spreadsheets/d/1dFiyEQRCWqBQBzmHNZe88pIQfPQQZ6Ld/edit?usp=sharing&ouid=100146590501902256309&rtpof=true&sd=true"
   },
   {
-    title: "Cash Management",
     img: anaysis5,
-    description:
-      "Discovering the optimal utilization of cash for ensuring liquidity and profitability.",
+    url: "https://drive.google.com/file/d/1yPBlpgkGUH1GTG_MCBM3C-bZQyr2usAh/view?usp=sharing"
   },
   {
-    title: "Restructuring Organizational Chart",
     img: anaysis6,
-    description:
-      "Better use of talent, reduced costs, better communication and increased efficiency.",
+    url: "https://drive.google.com/file/d/10wSUj83oNZ0SwLEwNf2eFJwF4AeK1cnV/view?usp=sharing"
+  },
+  {
+    img: anaysis7,
+    url: "https://docs.google.com/spreadsheets/d/1RLf20cd6ZKiGYhujYNU1Gqz6LrEfCQcb/edit?usp=sharing&ouid=100146590501902256309&rtpof=true&sd=true"
+  },
+  {
+    img: anaysis8,
+    url: "https://drive.google.com/file/d/11s3nSjytPOiZI5Tr_XXT9w1WpHx1jTTu/view?usp=sharing"
   },
 ];
 

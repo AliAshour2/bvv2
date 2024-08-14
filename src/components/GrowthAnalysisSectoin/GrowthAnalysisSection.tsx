@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { useMediaQuery } from "react-responsive";
 import { useTranslation } from "react-i18next";
 
+
 interface GrowthAnalysisItem {
   title: string;
   description: string;
@@ -77,7 +78,9 @@ const GrowthAnalysisSection = () => {
         {/* Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 lg:mb-14">
           {growthAnalysisItems.map((item, index) => (
-            <div
+            <a
+              href={GrouthAnalysisInfo[index].url}
+              target="blank"
               key={index}
               className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition"
               
@@ -91,13 +94,13 @@ const GrowthAnalysisSection = () => {
               </div>
               <div className={`p-4 md:p-5 ${isRtl ? 'text-right' : ''}`}>
                 <p className="mt-2 text-xs uppercase text-gray-600">
-                  {item.title}
+                 
                 </p>
                 <h3 className="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600">
-                  {item.description}
+                {item.title}
                 </h3>
               </div>
-            </div>
+            </a>
           ))}
         </div>
         {/* End Grid */}
