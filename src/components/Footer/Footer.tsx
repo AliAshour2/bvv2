@@ -11,7 +11,7 @@ const Footer = () => {
               href="#"
               aria-label="Brand"
             >
-              Business Vibes OU
+              Business Vibes LTD
             </a>
             <p className="mt-3 text-xs sm:text-sm text-gray-600">© 2024 BVV.</p>
           </div>

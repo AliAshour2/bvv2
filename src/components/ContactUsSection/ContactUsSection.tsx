@@ -1,11 +1,16 @@
+import { useTranslation } from "react-i18next";
+
 const ContactUsSection = () => {
+
+  const { t } = useTranslation();
+
   return (
     <>
       {/* Contact */}
       <div id="contact-us" className="max-w-7xl px-4 lg:px-6 lg:px-8 py-12 lg:py-24 mx-auto">
         <div className="mb-6 sm:mb-10 max-w-2xl text-center mx-auto">
           <h2 className="font-medium text-black text-2xl sm:text-4xl">
-            Let's Talk
+            {t("contactUs.title")}
           </h2>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-6 md:gap-8 lg:gap-12">
@@ -77,7 +82,7 @@ const ContactUsSection = () => {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full  hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        hello@example.so
+                        info@thebusinessvibes.com
                       </a>
                     </p>
                   </div>
@@ -104,7 +109,7 @@ const ContactUsSection = () => {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full  hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +44 222 777-000
+                       +372 53621457
                       </a>
                     </p>
                   </div>
