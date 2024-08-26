@@ -3,7 +3,7 @@
 ![Alt text](https://github.com/AliAshour2/bvv2/blob/main/src/assets/images/readmeImages/bvvreadmehome.png)
 ![Alt text](https://github.com/AliAshour2/bvv2/blob/main/src/assets/images/readmeImages/tablebvv.png)
 ## Overview
-Briefly describe the purpose of your project, what it does, and who might find it useful.
+The Business Vibes is a part of SaaS wep-app  for merger of companies
 
 ## File Structure
 Here's a breakdown of the main directories and files in your project:
