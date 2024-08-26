@@ -7,7 +7,7 @@
     "contactUs": "Contact Us"
   },
   "hero": {
-    "heroTitle": "Start your journey with ",
+    "heroTitle": "Start your journey  ",
     "heroDescription": "At Business Vibes , With the appropriate level of experience andknowledge, workable solutions can be developed for any size firm.Our staff has consulted with more than 100 companies, and they areprepared to improve the health of your business.",
     "buttonText1": "Get Started",
     "buttonText2": " Contact sales team"
@@ -39,6 +39,14 @@
       {
         "title": "Customized Research",
         "description": "Tailored to your project's specific needs."
+      },
+      {
+        "title": "Due Diligence",
+        "description": "An investigation of a company’s financial affairs. It is a thorough examination of a company’s past and projected patterns to verify their relevance and accuracy."
+      },
+      {
+        "title": "Business Valuation",
+        "description": "A process and a set of procedures used to estimate the economic value of an owner's interest in a business. various valuation techniques are used to determine the price of a willing to buyer & seller."
       }
     ],
     "readMore": "Want to read more?",
@@ -91,7 +99,7 @@
       }
     ]
   },
-  "contactUs" : {
-      "title": "Let's Talk"
+  "contactUs": {
+    "title": "Let's Talk"
   }
 }

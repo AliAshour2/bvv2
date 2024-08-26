@@ -10,6 +10,8 @@ import consultImg3 from "../assets/images/consultingSection/con3.jpg";
 import consultImg4 from "../assets/images/consultingSection/con4.jpg";
 import consultImg5 from "../assets/images/consultingSection/con5.jpg";
 import consultImg6 from "../assets/images/consultingSection/con6.jpg";
+import consultImg7 from "../assets/images/consultingSection/con7.jpeg";
+import consultImg8 from "../assets/images/consultingSection/con8.jpeg";
 
 import anaysis1 from "../assets/images/AnalysisSectoin/anlysis1.jpg";
 import anaysis2 from "../assets/images/AnalysisSectoin/anlysis2.jpg";
@@ -36,40 +38,36 @@ export const HeroImages = {
 
 export const ConsultingInfo = [
   {
-    title: "Financial Advisory",
-    description:
-      "Helping you create long-term strategies for building wealth and managing risk",
+    
     img: consultImg1,
   },
   {
-    title: "Restructuring",
-    description:
-      "Structural changes designed to increase the value of your projects.",
+   
     img: consultImg2,
   },
   {
-    title: "Engineering",
-    description:
-      "Using highly advanced techniques to solve financial problems.",
+    
+      
     img: consultImg3,
   },
   {
-    title: "Corporate Governance",
-    description:
-      "Helping you to build an environment of trust, transparency, and accountability.",
+    
     img: consultImg4,
   },
   {
-    title: "Business Plans",
-    description:
-      "Covering objectives, strategies, market analysis, execution plans, and financial projections.",
+   
     img: consultImg5,
   },
   {
-    title: "Customized Research",
-    description: "Tailored to your project's specific needs.",
+    
     img: consultImg6,
   },
+  {
+    img : consultImg8
+  },
+  {
+    img : consultImg7
+  }
 ];
 
 export const GrouthAnalysisInfo = [

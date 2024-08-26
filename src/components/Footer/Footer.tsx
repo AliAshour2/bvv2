@@ -91,10 +91,23 @@ const Footer = () => {
               </div>
               {/* Social Brands */}
               <div className="space-x-4">
-                
+                <a
+                  href="https://www.linkedin.com/in/the-business-vibes-409471323"
+                  target="_blank"
+                >
                   <i className="fa-brands fa-linkedin" />
-                  <i className="fa-brands fa-facebook" />
-               
+                </a>
+
+                <a href="https://x.com/TheBusinessVibs" target="_blank">
+                  <i className="fa-brands fa-twitter" />
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61564635503846"
+                  target="_blank"
+                >
+                  {" "}
+                  <i className="fa-brands fa-facebook"></i>
+                </a>
               </div>
               {/* End Social Brands */}
             </div>

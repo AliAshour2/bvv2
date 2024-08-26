@@ -90,6 +90,7 @@ const GrowthAnalysisSection = () => {
                   className="w-full h-full object-cover rounded-t-xl"
                   src={GrouthAnalysisInfo[index].img}
                   alt={item.title}
+                   loading="lazy"
                 />
               </div>
               <div className={`p-4 md:p-5 ${isRtl ? 'text-right' : ''}`}>
@@ -132,6 +133,7 @@ const GrowthAnalysisSection = () => {
                     className="w-full h-full object-cover rounded-t-xl"
                     src={GrouthAnalysisInfo[index].img}
                     alt={item.title}
+                     loading="lazy"
                   />
                 </div>
                 <div className={`p-4 md:p-5 ${isRtl ? 'text-right' : ''}`}>
